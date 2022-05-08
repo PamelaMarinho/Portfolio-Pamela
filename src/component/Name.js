@@ -15,25 +15,31 @@ const Name = (props) => {
 
        if(props.msg==="PROJETOS"){
           return (
-               <p className={props.msg} style={{marginLeft: offSetY * 0.3 - (window.innerHeight * 0.5)}} onScroll={''} >{props.msg}</p>
+               <p className={props.msg} style={{marginLeft: offSetY * 0.3 - (window.innerHeight * 1)}}  >{props.msg}</p>
           )
        }
-       if(props.msg==="SOBRE" || props.msg==="CONTATO")
+       if( props.msg==="CONTATO")
        {
           return (
-               <p className={props.msg} style={{marginLeft: -offSetY * 0.3 + (window.innerHeight * 0.5)}} onScroll={''} >{props.msg}</p>
+               <p className={props.msg} style={{marginLeft: -offSetY * 0.3 + (window.innerHeight * 1)}} >{props.msg}</p>
+          )
+       }
+       if(props.msg==="SOBRE")
+       {
+          return (
+               <p className={props.msg} style={{marginLeft: -offSetY * 0.3 + (window.innerHeight * 0.5)}} >{props.msg}</p>
           )
        }
        if(props.msg==="PAMELA")
        {
           return (
-               <p className={props.msg} style={{marginLeft: -offSetY * 11, opacity: 1 - (offSetY*0.01) }} onScroll={''} >{props.msg}</p>
+               <p className={props.msg} style={{marginLeft: -offSetY * 10 , opacity: 1 - (offSetY * 0.01) }} >{props.msg}</p>
           )
        }
        if(props.msg==="MARINHO")
        {
           return (
-               <p className={props.msg} style={{marginLeft: offSetY * 10, opacity: 1 - (offSetY*0.01) }} onScroll={''} >{props.msg}</p>
+               <p className={props.msg} style={{marginLeft: offSetY * 10, opacity: 1 - (offSetY * 0.01) }} >{props.msg}</p>
           )
        }
 }

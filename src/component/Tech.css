@@ -1,6 +1,6 @@
 .section-tech{
     height: fit-content;
-    padding: 5vh 3vh 20vh ;
+    padding: 5vh 0 20vh ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -49,10 +49,9 @@
     .text{
         font-size: 5vh;
         margin: 2vh 0;
+        width: 80%;
     }
 
-    .box-tech{
-    }
 
     .section-tech{
         margin: 0vh 0 10vh;
