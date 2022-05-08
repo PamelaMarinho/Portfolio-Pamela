@@ -8,7 +8,7 @@ const Tech = () => {
         }
 
        return (
-       <section className="section-tech">
+       <section id='tech' className="section-tech">
                 <div className="box-tech">
                     <div className='text'>Structure DOM - HTML Intermediate Level </div>
                     <div className="tech">HTML</div>
@@ -18,7 +18,7 @@ const Tech = () => {
                     <div className="tech">CSS</div>
                 </div>
                 <div className='box-tech'>
-                    <div className='text'> Heritage POO - JS Intermediate Level </div>
+                    <div className='text'> Inheritance POO - JS Intermediate Level </div>
                     <div className="tech">Javascript</div>
                 </div>
                 <div className='box-tech'>
@@ -30,7 +30,7 @@ const Tech = () => {
                     <div className="tech">NodeJs</div>
                 </div>
                 <div className='box-tech'>
-                    <div className='text'> NodeJs Router Req Res - Express Basic Level  </div>
+                    <div className='text'> Router Request Response - Express Basic Level  </div>
                     <div className="tech">Express</div>
                 </div>
                 <div className='box-tech'>
