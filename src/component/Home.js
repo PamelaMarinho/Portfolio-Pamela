@@ -11,7 +11,6 @@ const Home = () => {
                <p className='title-home'>Analista de Sistema - Desenvolvedora Web</p>
         </div>
        )
-
 }
 
 export default Home

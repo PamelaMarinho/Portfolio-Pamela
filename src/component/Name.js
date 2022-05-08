@@ -3,7 +3,6 @@ import './Name.css'
 
 const Name = (props) => {
 
-
      const [offSetY, setOffSetY] = useState(0)
      const handleScroll = () => setOffSetY(window.pageYOffset)
 
@@ -12,7 +11,6 @@ const Name = (props) => {
           return () => window.removeEventListener("scroll", handleScroll);
       }, []);
     
-
        if(props.msg==="PROJETOS"){
           return (
                <p className={props.msg} style={{marginLeft: offSetY * 0.3 - (window.innerHeight * 1)}}  >{props.msg}</p>

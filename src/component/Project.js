@@ -25,7 +25,6 @@ const Project = () => {
             </div>
         </section>
        )
-
 }
 
 export default Project

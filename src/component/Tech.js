@@ -3,10 +3,6 @@ import './Tech.css'
 
 const Tech = () => {
 
-        function slide(e){
-                console.log(e)
-        }
-
        return (
        <section id='tech' className="section-tech">
                 <div className="box-tech">
