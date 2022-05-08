@@ -1,36 +1,61 @@
 .section-tech{
-    height: 120vh;
-    width: 100vw;
+    height: fit-content;
+    padding: 5vh 3vh 20vh ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: var(--font-family);
 }
 
 .tech{
-    height: 10vh;
-    border-top: solid 2px var(--text-color);
+    width: fit-content;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    position: absolute;
+    z-index: 30;
+    color: var(--theme-color);
+    font-size: 4vh;
+    padding: 5vh 0 0 0;  
+}
+
+.text{
+    width: 100vw;
+    cursor: pointer;
+    text-align: center;
+    z-index: 20;
+    flex-wrap: wrap;
+    font-weight: 100;
+    color: rgba(128, 128, 128, 0.187);
+    font-size: 10vh;
+    opacity: 0.1;
+    max-height: 6vh;
+}
+
+.text:hover{
+    opacity: 1;
+}
+
+.box-tech{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--font-family);
-    color: var(--text-color);
-    padding: 2vh;
+    width: 100vw;
+    margin: 4vh 0;
 }
 
-.tech:last-of-type{
-    border-bottom: solid 2px var(--text-color);
-}
+@media screen and (max-width: 720px) {
 
-.tech:hover{
-    color: var(--theme-color);
-}
+    .text{
+        font-size: 5vh;
+        margin: 2vh 0;
+    }
 
-.tech-bg{
-    position: absolute;
-    z-index: 5;
-    color: var(--text-color);
-    font-family: var(--font-family);
-    font-size: calc( 1 * 10vh );
+    .box-tech{
+    }
 
-}
-
-.tech-bg:hover{
-    color: aqua;
+    .section-tech{
+        margin: 0vh 0 10vh;
+    }
+    
 }

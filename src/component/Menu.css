@@ -33,9 +33,9 @@
         height: 5vh;
         flex-direction: row;
         justify-content: space-evenly;
-        padding-bottom: 1vh;        
+        padding-bottom: 2vh;        
         background-color: var(--bg-color);
-        opacity: 1;
+        opacity: 0.9;
     }
 
 }

@@ -15,6 +15,10 @@
   --text-weight: 300;
 }
 
+.app{
+  overflow: hidden;
+}
+
 .center{
   display: flex;
   align-items: center;
