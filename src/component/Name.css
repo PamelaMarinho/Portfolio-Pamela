@@ -1,0 +1,14 @@
+
+.CONTATO, .SOBRE, .PROJETOS, .PAMELA, .MARINHO{
+        font-size: 25vw;
+        color: rgba(9, 240, 205, 0.116);
+        position: relative;
+        z-index: 10;
+        font-family: var(--font-family);
+        width: 100%;
+
+    }
+
+.PAMELA, .MARINHO{
+    font-size: 10vw;
+}

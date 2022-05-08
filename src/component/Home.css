@@ -1,0 +1,38 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: var(--font-family)
+}
+
+.PAMELA{
+    width: fit-content;
+}
+
+.MARINHO{
+    width: fit-content;
+}
+
+.title-home{
+    color: var(--theme-color);
+    position: absolute;
+    top: calc(50vh - var(--text-size)/2);
+    z-index: 40;
+    font-size: var(--text-size);
+    text-align: center;
+}
+
+@media screen and (max-width: 400px){
+    .PAMELA{
+       font-size: 8vh;
+       top: -2vh;
+    }
+    
+    .MARINHO{
+       font-size: 8vh;
+       top: 5vh;
+    }
+}

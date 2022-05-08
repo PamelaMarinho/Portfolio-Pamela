@@ -1,0 +1,31 @@
+.section-about{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    padding: 5vh 3vh 20vh;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.text-about{
+    width: 40vw;
+    position: relative;
+    padding-left: 5%;
+    border-left: var(--theme-color) solid 1px;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-size: var(--font-size);
+    z-index: 30;
+    margin-top: -15%;
+    line-height: 5vh;
+}
+
+@media screen and (max-width: 430px){
+
+    .text-about{
+        width: 70%;
+        height: fit-content;
+    }
+
+}

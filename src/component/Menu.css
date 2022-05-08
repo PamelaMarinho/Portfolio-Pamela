@@ -1,0 +1,41 @@
+
+.menu{
+    height: 100vh;
+    width: 5vh;
+    position: fixed;
+    z-index: 40;
+    left: 0;
+    list-style: none;
+    flex-direction: column;
+    list-style: none;
+}
+
+.img{
+    height: 2.5vh;
+    width: 2.5vh;
+    opacity: 0.2;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+.img:hover{
+    opacity: 1;
+    height: 4vh;
+    width: 4vh;
+    margin-left: 2.5vh;
+}
+    
+@media screen and (max-width: 400px) {
+
+    .menu{
+        bottom: 0;
+        width: 100vw;
+        height: 5vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;  
+        background-color: var(--bg-color);
+        opacity: 0.9;
+    }
+
+}
