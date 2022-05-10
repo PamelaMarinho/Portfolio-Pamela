@@ -9,7 +9,7 @@ const About = () => {
                 <Name msg="SOBRE" />
                 <div className='text-about'>
                      <p> Graduada em análise e desenvolvimento de sistemas que descobriu na programação web uma grande paixão.
-                        Já passei por 30 primaveras e 3 delas estudando tecnologia.</p>
+                        Já passei por 30 primaveras, 3 delas estudando tecnologia.</p>
                 </div>
         </section>
        )

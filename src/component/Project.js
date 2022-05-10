@@ -12,6 +12,7 @@ const Project = () => {
                         <div className='box'>
                             <p className='title-box'>Colored</p>
                             <p className='text-box'>Ferramenta para pré-visualização de paleta de cores para seu projeto.</p>
+                            <p>**estilização pela dev <a className='mimi' href='https://github.com/alreadymimi' target={"_blanket"}>Mimi</a></p>
                             <a className='button-box' href='https://pamelamarinho.github.io/colored/' target="_blanket" >Teste Aqui</a>
                         </div>
                     </div>
