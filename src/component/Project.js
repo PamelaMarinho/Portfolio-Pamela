@@ -23,6 +23,13 @@ const Project = () => {
                             <a className='button-box' href='https://pamelamarinho.github.io/mega-sorte/' target="_blanket" >Teste Aqui</a>
                         </div>
                     </div>
+                    <div className="box-out">
+                        <div className='box'>
+                            <p className='title-box'>Memory Game</p>
+                            <p className='text-box'>Teste a capacidade da sua memória</p>
+                            <a className='button-box' href='https://pamelamarinho.github.io/memory-game/' target="_blanket" >Teste Aqui</a>
+                        </div>
+                    </div>
             </div>
         </section>
        )
